@@ -1,6 +1,6 @@
 {application, common_lib, [
     {description, "Common Library"},
-    {vsn, "3.3.6"},
+    {vsn, "4.0.0"},
     {modules, []},
     {registered, [cl_timer_srv]},
     {applications, [kernel, stdlib]},
