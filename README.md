@@ -1,28 +1,37 @@
-# common_lib #
-A fork of http://oserl.hg.sourceforge.net/hgweb/oserl/common_lib/ that builds with rebar
+# common_lib
 
-### Usage with Rebar ###
+A fork of http://oserl.hg.sourceforge.net/hgweb/oserl/common_lib/ that builds with Rebar.
+
+## Usage with Rebar
+
 Add following code to your rebar.conf:
-```
+
+```erlang
 {deps, [
   {common_lib, ".*", {git, "https://github.com/dmitrii-zolotarev/common_lib.git", {branch, "master"}}}
 ]}.
 ```
 
-### Build ###
-```
-$ rebar compile
-```
-or
-```
-$ rebar co
+## Build
+
+```bash
+rebar compile
 ```
 
-### Run tests ###
-```
-$ rebar compile ct
-```
 or
+
+```bash
+rebar co
 ```
-$ rebar co ct
+
+## Run tests
+
+```bash
+rebar compile ct
+```
+
+or
+
+```bash
+rebar co ct
 ```
