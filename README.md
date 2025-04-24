@@ -8,7 +8,7 @@ Add following code to your rebar.conf:
 
 ```erlang
 {deps, [
-  {common_lib, ".*", {git, "https://github.com/dmitrii-zolotarev/common_lib.git", {branch, "master"}}}
+  {common_lib, ".*", {git, "https://github.com/funbox/common_lib.git", {branch, "master"}}}
 ]}.
 ```
 
